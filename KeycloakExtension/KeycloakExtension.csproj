@@ -9,6 +9,10 @@
     <Title>Dropa KeycloakExtension</Title>
     <Authors>Doğan ÖZTÜRK</Authors>
     <Description>Extension to use Keycloak</Description>
+    <PackageProjectUrl>https://github.com/dgnoztrk/DropaKeycloakExtension</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/dgnoztrk/DropaKeycloakExtension</RepositoryUrl>
+    <PackageTags>keycloak extension keycloak.extension identity server</PackageTags>
+    <PackageReleaseNotes>first rel</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>

@@ -13,4 +13,7 @@
       </group>
     </dependencies>
   </metadata>
+  <files>
+    <file src="C:\Users\dogan.ozturk\source\repos\DropaKeycloak\KeycloakExtension\bin\Release\net8.0\KeycloakExtension.dll" target="lib\net8.0\KeycloakExtension.dll" />
+  </files>
 </package>
