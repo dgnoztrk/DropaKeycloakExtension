@@ -7,6 +7,11 @@ namespace KeycloakExtension
 {
 	public static class ServiceCollectionExtensions
 	{
+		/// <summary>
+		/// For web API
+		/// </summary>
+		/// <param name="services"></param>
+		/// <param name="keycloakSettings"></param>
         public static void AddKeycloak(this IServiceCollection services, KeycloakSettings keycloakSettings)
 		{
 			services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>

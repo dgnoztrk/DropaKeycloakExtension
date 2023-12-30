@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
-    <id>Dropa.KeycloakExtension</id>
+    <id>Dropa.DotnetCoreAPIKeycloak</id>
     <version>1.0.0</version>
-    <authors>Dogan.OZTURK</authors>
-    <description>Extension to use Keycloak</description>
+    <authors>Dogan OZTURK</authors>
+    <description>Extension to use Keycloak for web api</description>
     <repository type="git" />
     <dependencies>
       <group targetFramework="net8.0">
@@ -13,7 +13,4 @@
       </group>
     </dependencies>
   </metadata>
-  <files>
-    <file src="C:\Users\dogan.ozturk\source\repos\DropaKeycloak\KeycloakExtension\bin\Release\net8.0\KeycloakExtension.dll" target="lib\net8.0\KeycloakExtension.dll" />
-  </files>
 </package>
