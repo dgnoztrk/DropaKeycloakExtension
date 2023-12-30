@@ -5,13 +5,14 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <PackageId>Dropa.DotnetCoreWebKeycloak</PackageId>
-    <Title>DotnetCoreWebKeycloak</Title>
+    <Title>Dropa .Net Core Web Keycloak</Title>
     <Authors>Doğan ÖZTÜRK</Authors>
     <Description>.net core projects add keycloak for 'SSO'</Description>
     <PackageProjectUrl>https://github.com/dgnoztrk/DropaKeycloakExtension/tree/master/DotnetCoreWebKeycloak</PackageProjectUrl>
     <RepositoryUrl>https://github.com/dgnoztrk/DropaKeycloakExtension/tree/master/DotnetCoreWebKeycloak</RepositoryUrl>
     <PackageTags>keycloak dotnetcore keycloakextension dropa</PackageTags>
     <PackageReleaseNotes>first rel</PackageReleaseNotes>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
