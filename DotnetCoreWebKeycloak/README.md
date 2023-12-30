@@ -3,19 +3,19 @@
 ###### appsettings.json
 ```
 "KeycloakSettings": {
-    "AuthorityUrl": "https://keycloak.doganozturk.net/",
-    "realmName": "testRealm",
-    "RequireHttpsMetadata": false,
-    "ValidateIssuerSigningKey": false,
-    "ValidateIssuer": false,
-    "ValidateAudience": false
+    "AuthorityUrl": "https://keycloak.doganozturk.net/realms/{realmName}",
+    "ClientId": "webtest",
+    "ClientSecret": "Nk6mtkLzbymYtGnTo0q0kXZWYc0merdF",
+    "CallbackPath": "/*",
+    "ResponseType": "code",
+    "SaveTokens": "true",
+    "RequireHttpsMetadata": "false"
 }
 ```
 
 ###### program.cs
 ```
-using KeycloakExtension;
-using KeycloakExtension.Models;
+using DotnetCoreWebKeycloak;
 ```
 
 ###### Required
