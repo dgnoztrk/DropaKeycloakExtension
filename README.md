@@ -20,7 +20,7 @@ using KeycloakExtension.Models;
 
 ###### Required
 ```
-builder.Services.AddKeycloak();
+builder.Services.AddKeycloak(builder.Configuration.GetSection("KeycloakSettings").Get<KeycloakSettings>());
 
 app.UseAuthorization();
 ```
