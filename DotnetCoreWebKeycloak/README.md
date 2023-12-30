@@ -3,7 +3,7 @@
 ###### appsettings.json
 ```
 "KeycloakSettings": {
-    "AuthorityUrl": "https://id-test.doganozturk.net/",
+    "AuthorityUrl": "https://keycloak.doganozturk.net/",
     "realmName": "testRealm",
     "RequireHttpsMetadata": false,
     "ValidateIssuerSigningKey": false,
